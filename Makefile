@@ -7,7 +7,7 @@ mycp: mycp.o
 
 # define targets to compile the source code
 #
-mycp.o: mycp.cc lab8.h Makefile
+mycp.o: mycp.cc copy.h Makefile
         g++ -g -c mycp.cc -o mycp.o
 
 # define a target to clean the directory
